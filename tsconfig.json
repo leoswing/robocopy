@@ -1,0 +1,39 @@
+{
+  // "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "strictNullChecks": false,
+    "target": "ES2015",
+    "traceResolution": false,
+    "types": ["node"],
+    "lib": [
+      "dom",
+      "ES2017",
+      "DOM.Iterable",
+      "ES2020",
+      "ES2020.Promise"
+    ],
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "__tests__"
+  ]
+}
