@@ -1,6 +1,6 @@
 {
-  "name": "robocopy",
-  "version": "0.1.5",
+  "name": "robocopy-ex",
+  "version": "0.1.0",
   "description": "robocopy for windows fast copy",
   "keywords": [
     "robocopy",
